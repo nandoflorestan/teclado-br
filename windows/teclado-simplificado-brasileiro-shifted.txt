@@ -1,0 +1,43 @@
+﻿Brazilian Dvorak keyboard                     2005-06-11
+"Teclado Simplificado Brasileiro" ou "Dvorak Brasileiro"
+
+Variante "shifted"
+==================
+
+Procurando reduzir a freqüência com que se usa a tecla shift,
+os números (na linha superior) sofrem uma inversão de shift; vale dizer,
+os sinais estão disponíveis sem shift, e os números com shift.
+
+Este layout poderia ser preferido por programadores e por quem gosta de
+usar o teclado numérico para entrar números.
+
+Outras teclas com o shift invertido:
+
+- Aspas duplas / aspas simples
+- Interrogação / barra
+- Colchetes
+
+No mais, as teclas são iguais à variante "conservadora".
+
+Na prática, eu mesmo que sou programador acabei abandonando esta ideia e
+hoje uso o teclado Dvorak brasileiro comum.
+
+"Legenda":     Maiúscula  /  AltGraphic + Shift
+               Minúscula  /  AltGraphic
+
+     '   1¹  2²  3³  4£  5¢  6¬  7   8™  9±  0Ø  [¯  ]   BACKSPACE
+     "   !¡  @½  #¾  $¼  %   ¨   &÷  *   (   )ø  {ª  }º  BACKSPACE
+------------------------------------------------------------------
+TAB      /°  <   >   P   Y¥  Fª  G   CÇ  R©  L   ``  +      RETURN
+TAB      ?¿  ,   .•  p¶  y   f   g   cç  r®  l   ´´  =§     RETURN
+------------------------------------------------------------------
+CAPS     AÆ  OŒ  E   U   I   D   H   T   N   S§  ^^  _      RETURN
+LOCK     aæ  oœ  e€  u   i   d   h   t   n   sß  ~~  -\     RETURN
+------------------------------------------------------------------
+SHIFT Ç  :   Q   J   K   X×  B   M   W   V   Z   |       S H I F T
+SHIFT ç  ;   q/  j|  k\  x“  b”  m   w   v«  z»  \/      S H I F T
+------------------------------------------------------------------
+CONTROL  SUPER  ALT    S P A C E    AltGr   SUPER   MENU   CONTROL
+
+Atenção: Este arquivo de texto foi codificado em Unicode (UTF-8). Para
+vê-lo corretamente, use um browser ou um editor de texto que suporte UTF-8.

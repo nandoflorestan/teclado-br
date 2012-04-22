@@ -1,0 +1,126 @@
+Brazilian Dvorak keyboard                           2009
+"Teclado Simplificado Brasileiro" ou "Dvorak Brasileiro"
+
+Nota: As mais novas versões do Linux já vêm com uma versão melhor deste driver.
+
+INSTALAÇÃO MANUAL
+=================
+
+Há 2 arquivos:
+
+"brdk"      é o driver para o modo gráfico (X Window System)
+"brdk.kmap" é o driver para o modo texto do Linux. (EXPERIMENTAL)
+
+Se você só usa o console dentro do modo gráfico, não precisa do segundo arquivo.
+O responsável pelo teclado do console dentro do modo gráfico é próprio X.
+
+Existe também um driver para Windows, mas não será abordado aqui.
+
+
+INSTRUÇÕES DE INSTALAÇÃO PARA O "X WINDOW SYSTEM"
+=================================================
+
+As seguintes instruções eram boas em 2005 e 2006. Para versões mais novas do
+Unix, seria bom se alguém fizesse a pesquisa e atualizasse este texto.
+
+1) Como administrador do sistema, copie o arquivo "brdk" para o diretório:
+       /usr/X11R6/lib/X11/xkb/symbols/
+...onde você encontrará muitos arquivos de teclado.
+
+Caso não encontre esse diretório, procure por "xkb/symbols/",
+já que a localização pode variar. Por exemplo, no Ubuntu (Debian) fica em:
+       /etc/X11/xkb/symbols/
+
+2) Para EXPERIMENTAR, abra uma janela de console e digite:
+       setxkbmap -model abnt2 -layout brdk
+
+Pronto, imediatamente entram em vigor:
+- o modelo (geometria) ABNT2, descrito no arquivo xkb/geometry/pc
+- e o leiaute brdk.
+Mas é só temporário!
+Ao reiniciar o servidor X (por exemplo, com Ctrl-Alt-Backspace),
+o teclado reverterá.
+
+Em todo caso, se desejar voltar ao seu teclado ABNT2, basta digitar:
+       setxkbmap -model abnt2 -layout br
+
+Para experimentar a variante "shifted", que inverte algumas teclas, digite:
+       setxkbmap -model abnt2 -layout brdk -variant shifted
+
+
+3-a) Para CONFIGURAR definitivamente, há 2 maneiras.
+A preferida é, como usuário root, editar o arquivo /etc/X11/xorg.conf,
+que é o principal arquivo de configuração do servidor X.
+Encontre um trecho assim, que trata do teclado:
+
+       Section "InputDevice"
+              Identifier      "Generic Keyboard"
+              Driver          "keyboard"
+              Option          "CoreKeyboard"
+              Option          "XkbRules"      "xorg"
+              Option          "XkbModel"      "abnt2"
+              Option          "XkbLayout"     "brdk"
+       EndSection
+
+O importante é que as 2 últimas linhas "Option" fiquem iguais ao exemplo.
+Elas é que definem o modelo abnt2 e leiaute brdk.
+
+Para usar a variante "shifted" inclua também dentro dessa seção a linha:
+
+              Option          "XkbVariant"    "shifted"
+
+Pronto, o teclado entrará em vigor ao reiniciar o X. Veja o passo 4 abaixo.
+
+3-b) Alternativamente, como administrador do sistema, reconfigure o servidor X
+via utilitário. No Ubuntu (distribuição derivada do Debian), basta rodar o
+seguinte comando:
+
+       dpkg-reconfigure xserver-xorg
+
+O programa fará muitas perguntas.
+Quando perguntado sobre o LAYOUT do teclado, digite "brdk".
+Quando perguntado sobre o MODELO do teclado, digite "abnt2".
+Nas demais pode simplesmente apertar Enter para escolher o padrão.
+NÃO é preciso dar boot na máquina.
+
+4) Ao reiniciar o Gnome, ele dirá que as configurações do servidor X mudaram e
+perguntará com quais você quer ficar, as do Gnome ou as do X. Responda que quer
+usar as do X.
+
+5) O teclado já deve estar funcionando corretamente. Em todo caso, na tela de
+configurações de teclado do Gnome você terá outra oportunidade de em
+"keyboard model" colocar "Brazilian ABNT2", que é um modelo diferente dos tecla-
+dos convencionais de 104 ou 105 teclas, senão uma das teclas não funcionará.
+
+Isto é tudo, seu teclado está reconfigurado para o X.
+
+Para mais informações sobre configuração:
+http://xorg.freedesktop.org/X11R6.8.1/PDF/XKB-Config.pdf
+
+
+INSTRUÇÕES DE TESTE E INSTALAÇÃO PARA O CONSOLE DO LINUX
+========================================================
+
+Para experimentar o teclado basta executar a linha abaixo no console:
+
+       loadkeys brdk.kmap
+
+Para instalação permanente, use um dos métodos abaixo:
+
+A) Este método só é válido para o Debian e derivados.
+Entre no console, torne-se o usuário "root" e digite:
+
+       install-keymap brdk.kmap
+
+B) Este método só é válido para o RedHat e derivados.
+Entre no console, torne-se o usuário "root" e digite:
+
+       cp brdk.kmap /etc/sysconfig/console/default.kmap
+
+________________________________________________________________
+
+Autores           Contato e Sugestões          Website
+================================================================
+Nando Florestan   nandoflorestan@gmail.com     nando.oui.com.br/
+Heitor Moraes     heitor.moraes@gmail.com
+Luiz Portella     lfpor@lujz.org               www.lujz.org/lfpor/dvorak.html

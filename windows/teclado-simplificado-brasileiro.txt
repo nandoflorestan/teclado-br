@@ -1,0 +1,23 @@
+﻿Brazilian Dvorak keyboard                     2005-06-11
+"Teclado Simplificado Brasileiro" ou "Dvorak Brasileiro"
+
+"Legenda":     Maiúscula  /  AltGraphic + Shift
+               Minúscula  /  AltGraphic
+
+     "   !¡  @½  #¾  $¼  %   ¨   &÷  *   (   )Ø  {¯  }   BACKSPACE
+     '   1¹  2²  3³  4£  5¢  6¬  7   8™  9±  0ø  [ª  ]º  BACKSPACE
+------------------------------------------------------------------
+TAB      ?¿  <   >   P   Y¥  Fª  G   CÇ  R©  L   ``  +      RETURN
+TAB      /°  ,   .•  p¶  y   f   g   cç  r®  l   ´´  =§     RETURN
+------------------------------------------------------------------
+CAPS     AÆ  OŒ  E   U   I   D   H   T   N   S§  ^^  _      RETURN
+LOCK     aæ  oœ  e€  u   i   d   h   t   n   sß  ~~  -\     RETURN
+------------------------------------------------------------------
+SHIFT Ç  :   Q   J   K   X×  B   M   W   V   Z   |       S H I F T
+SHIFT ç  ;   q/  j|  k\  x“  b”  m   w   v«  z»  \/      S H I F T
+------------------------------------------------------------------
+CONTROL  SUPER  ALT    S P A C E    AltGr   SUPER   MENU   CONTROL
+
+
+Atenção: Este arquivo de texto foi codificado em Unicode (UTF-8). Para
+vê-lo corretamente, use um browser ou um editor de texto que suporte UTF-8.
