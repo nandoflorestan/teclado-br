@@ -23,10 +23,11 @@ Nando Florestan, Heitor Moraes e Luiz Portella em 2005 e 2006.
 
 Mas e os **outros sistemas operacionais**?
 
-Eu gostaria que outras pessoas verificassem se o driver para Windows XP
+Eu gostaria que outras pessoas verificassem se o driver para **Windows XP**
 ainda funciona nas versões mais recentes do Windows. Também seria bom se alguém
-criasse uma versão do teclado para Macintosh. Colaboração open source é
-bem-vinda e por isso é que os fontes estão no github.
+criasse uma versão do teclado para **Macintosh**. Colaboração open source é
+bem-vinda e por isso é que os fontes estão no
+`github <https://github.com/nandoflorestan/teclado-br>`_.
 
 troca_teclado
 -------------
@@ -38,7 +39,7 @@ Continua funcionando nas mais novas versões do Linux para testar os leiautes,
 mas não para instalá-los permanentemente. Não há nenhum perigo em executar
 o troca_teclado.
 
-Para executá-lo, abra um console e, no diretório "unix", digite:
+Para executá-lo, abra um console e, no diretório "unix", digite::
 
   sudo ./troca_teclado.py
 
