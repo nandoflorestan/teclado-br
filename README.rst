@@ -6,6 +6,14 @@ Este pacote contém os seguintes drivers:
 - Teclado Dvorak brasileiro, para Unix e Windows XP
 - Teclado brasileiro nativo, para Unix. Autor: Ari Caldeira
 
+Por que usar um teclado Dvorak?
+-------------------------------
+
+Vide http://nando.oui.com.br/pages/teclado.html
+
+Status do projeto
+-----------------
+
 **Os drivers para Unix** que temos aqui funcionam bem mas são ligeiramente
 obsoletos, pois Ari Caldeira os melhorou um pouco e conseguiu incluí-los no
 código-fonte do `x.org`_. Ou seja, hoje em dia todas as distribuições do
@@ -21,7 +29,7 @@ criasse uma versão do teclado para Macintosh. Colaboração open source é
 bem-vinda e por isso é que os fontes estão no github.
 
 troca_teclado
-=============
+-------------
 
 É um utilitário para Unix, escrito por Nando Florestan na linguagem Python 2.x.
 Serve para facilmente testar e instalar os leiautes de teclado.
