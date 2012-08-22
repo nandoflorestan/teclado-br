@@ -59,11 +59,11 @@ Os arquivos deste projeto são resultado do trabalho de:
 
 - Ari Caldeira (criador do Brasileiro Nativo; novo brdk p/ Unix)
 - `Gabriel Marquez <https://github.com/gblmarquez>`_
-    (novos drivers brdk p/ Windows)
+  (novos drivers brdk p/ Windows)
 - Heitor Moraes (brdk e documentação)
 - Luiz Portella (brdk p/ Unix)
 - `Nando Florestan <https://github.com/nandoflorestan>`_
-    (brdk p/ Unix e Windows e documentação)
+  (brdk p/ Unix e Windows e documentação)
 
 Contribua
 ---------
