@@ -3,7 +3,7 @@ BRDK - drivers inovadores para teclado brasileiro
 
 Este pacote contém os seguintes drivers:
 
-- Teclado Dvorak brasileiro, para Unix e Windows XP
+- Teclado Dvorak brasileiro, para Unix e Windows (XP, Vista, 7 etc.)
 - Teclado brasileiro nativo, para Unix. Autor: Ari Caldeira
 
 Por que usar um teclado Dvorak?
@@ -23,11 +23,11 @@ Nando Florestan, Heitor Moraes e Luiz Portella em 2005 e 2006.
 
 Mas e os **outros sistemas operacionais**?
 
-Eu gostaria que outras pessoas verificassem se o driver para **Windows XP**
-ainda funciona nas versões mais recentes do Windows. Também seria bom se alguém
-criasse uma versão do teclado para **Macintosh**. Colaboração open source é
-bem-vinda e por isso é que os fontes estão no
+Seria bom se alguém criasse uma versão do teclado para **Macintosh**.
+Colaboração open source é bem-vinda e por isso é que os fontes estão no
 `github <https://github.com/nandoflorestan/teclado-br>`_.
+Para quaisquer outras ideias, pode
+`criar um ticket <https://github.com/nandoflorestan/teclado-br/issues>`_.
 
 troca_teclado
 -------------
@@ -51,3 +51,22 @@ Nos bastidores, este programa executa o utilitário *setxkbmap*.
 O código-fonte é de domínio público.
 
 .. _x.org: http://www.x.org/
+
+Créditos
+--------
+
+Os arquivos deste projeto são resultado do trabalho de:
+
+- Ari Caldeira (criador do Brasileiro Nativo; novo brdk p/ Unix)
+- `Gabriel Marquez <https://github.com/gblmarquez>`_
+    (novos drivers brdk p/ Windows)
+- Heitor Moraes (brdk e documentação)
+- Luiz Portella (brdk p/ Unix)
+- `Nando Florestan <https://github.com/nandoflorestan>`_
+    (brdk p/ Unix e Windows e documentação)
+
+Contribua
+---------
+
+Ao fazer um pull request neste projeto, você concorda em
+doar o seu trabalho para o domínio público.
