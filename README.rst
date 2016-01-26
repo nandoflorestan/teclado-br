@@ -14,6 +14,11 @@ Vide http://nando.oui.com.br/pages/teclado.html
 Status do projeto
 -----------------
 
+**Os drivers para Windows** têm seu código-fonte nos arquivos de
+extensão .klc.  Esse formato de arquivo é de um utilitário chamado
+Microsoft Keyboard Layout Creator, o programa que deve ser utilizado para
+editá-los.  Ao final do processo o programa gera instaladores .msi.
+
 **Os drivers para Unix** que temos aqui funcionam bem mas são ligeiramente
 obsoletos, pois Ari Caldeira os melhorou um pouco e conseguiu incluí-los no
 código-fonte do `x.org`_. Ou seja, hoje em dia todas as distribuições do
