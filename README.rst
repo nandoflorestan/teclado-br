@@ -3,13 +3,13 @@ BRDK - drivers inovadores para teclado brasileiro
 
 Este pacote contém os seguintes drivers:
 
-- Teclado Dvorak brasileiro, para Unix e Windows (XP, Vista, 7 etc.)
-- Teclado brasileiro nativo, para Unix. Autor: Ari Caldeira
+- Teclado Dvorak brasileiro, para Unix, Mac e Windows (XP, Vista, 7, 10 etc.)
+- Teclado brasileiro nativo, para Unix e Mac
 
 Por que usar um teclado Dvorak?
 -------------------------------
 
-Vide http://nando.oui.com.br/pages/teclado.html
+Vide http://dev.nando.audio/pages/teclado.html
 
 Status do projeto
 -----------------
@@ -26,13 +26,14 @@ Linux já vêm com uma versão melhorada desses drivers de teclado.
 A versão que está neste pacote é a original, elaborada principalmente por
 Nando Florestan, Heitor Moraes e Luiz Portella em 2005 e 2006.
 
+**Os drivers para Mac** foram criados com o utilitário open source `Ukelele <https://scripts.sil.org/ukelele>`_ em 2019 por Victor Fonseca (Dvorak BR) e 2014 por amagnoni (brasileiro nativo). Para instalar, basta copiar os arquivos .bundle para “/Library/Keyboard Layouts/”, fazer logout (ou reiniciar a máquina) e depois ir em “System Preferences –> Keyboard –> Input Sources” e habilitar os leiautes de teclado. Os teclados de Mac seguem o padrão americano e, portanto, tem 2 teclas a menos do que os teclados ABNT. Por essa razão, esses leiautes não possuem as teclas "ç" e "\\". O leiaute da tecla "option" foi mantido como no original (Dvorak americano).
+
 Mas e os **outros sistemas operacionais**?
 
-Seria bom se alguém criasse uma versão do teclado para **Macintosh**.
 Colaboração open source é bem-vinda e por isso é que os fontes estão no
-`github <https://github.com/nandoflorestan/teclado-br>`_.
+`github <https://github.com/victor-fonseca/teclado-br>`_.
 Para quaisquer outras ideias, pode
-`criar um ticket <https://github.com/nandoflorestan/teclado-br/issues>`_.
+`criar um ticket <https://github.com/victor-fonseca/teclado-br/issues>`_.
 
 troca_teclado
 -------------
@@ -69,6 +70,10 @@ Os arquivos deste projeto são resultado do trabalho de:
 - Luiz Portella (brdk p/ Unix)
 - `Nando Florestan <https://github.com/nandoflorestan>`_
   (brdk p/ Unix e Windows e documentação)
+- `Victor Fonseca <https://github.com/victor-fonseca>`_
+  (brdk p/ Mac e documentação)
+- `amagnoni <https://github.com/amagnoni>`_
+  (br nativo p/ Mac)
 
 Contribua
 ---------
