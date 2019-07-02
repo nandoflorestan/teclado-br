@@ -9,7 +9,7 @@ Este pacote contém os seguintes drivers:
 Por que usar um teclado Dvorak?
 -------------------------------
 
-Vide http://nando.oui.com.br/pages/teclado.html
+Vide http://dev.nando.audio/pages/teclado.html
 
 Status do projeto
 -----------------
@@ -26,14 +26,14 @@ Linux já vêm com uma versão melhorada desses drivers de teclado.
 A versão que está neste pacote é a original, elaborada principalmente por
 Nando Florestan, Heitor Moraes e Luiz Portella em 2005 e 2006.
 
-**Os drivers para Mac** foram criados com o utilitário open source `Ukelele <https://scripts.sil.org/ukelele>`_ em 2019 por Victor Fonseca (Dvorak BR) e 2014 por amagnoni (brasileiro nativo). Para instalar, basta copiar os arquivos .bundle para “/Library/Keyboard Layouts/”, fazer logout (ou reiniciar a máquina) e depois ir em “System Preferences –> Keyboard –> Input Sources” e habilitar os leiautes de teclado. Os teclados de Mac seguem o padrão americano e, portanto, tem 2 teclas a menos do que os teclados ABNT. Por essa razão, esses leiautes não possuem as teclas "ç" e "\". O leiaute da tecla "option" foi mantido como no original (Dvorak americano).
+**Os drivers para Mac** foram criados com o utilitário open source `Ukelele <https://scripts.sil.org/ukelele>`_ em 2019 por Victor Fonseca (Dvorak BR) e 2014 por amagnoni (brasileiro nativo). Para instalar, basta copiar os arquivos .bundle para “/Library/Keyboard Layouts/”, fazer logout (ou reiniciar a máquina) e depois ir em “System Preferences –> Keyboard –> Input Sources” e habilitar os leiautes de teclado. Os teclados de Mac seguem o padrão americano e, portanto, tem 2 teclas a menos do que os teclados ABNT. Por essa razão, esses leiautes não possuem as teclas "ç" e "\\". O leiaute da tecla "option" foi mantido como no original (Dvorak americano).
 
 Mas e os **outros sistemas operacionais**?
 
 Colaboração open source é bem-vinda e por isso é que os fontes estão no
-`github <https://github.com/nandoflorestan/teclado-br>`_.
+`github <https://github.com/victor-fonseca/teclado-br>`_.
 Para quaisquer outras ideias, pode
-`criar um ticket <https://github.com/nandoflorestan/teclado-br/issues>`_.
+`criar um ticket <https://github.com/victor-fonseca/teclado-br/issues>`_.
 
 troca_teclado
 -------------
