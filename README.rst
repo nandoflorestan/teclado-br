@@ -43,7 +43,7 @@ Para quaisquer outras ideias, pode
 Créditos
 --------
 
-Os arquivos deste projeto são resultado do trabalho de:
+Os arquivos deste projeto são de domínio público, resultado do trabalho de:
 
 - Ari Caldeira (criador do Brasileiro Nativo; novo brdk p/ Unix)
 - `Gabriel Marquez <https://github.com/gblmarquez>`_
