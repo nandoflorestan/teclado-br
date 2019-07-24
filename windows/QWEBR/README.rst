@@ -80,9 +80,8 @@ Este layout é doado pelo autor, Nando Florestan, ao domínio público --
 você pode fazer o que quiser sem nenhuma limitação.
 
 Se quiser mexer nalgum detalhe do teclado, encontre o fonte dentro de ``src/``
-e abra-o no programa Microsoft Keyboard Layout Creator.  Há neste projeto
-outro arquivo de texto que ensina a instalar esse programa no Windows.
-
+e abra-o no programa Microsoft Keyboard Layout Creator.
+`Veja como fazer isso aqui. <../>`_
 
 
 Conselhos
