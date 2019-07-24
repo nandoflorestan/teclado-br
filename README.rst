@@ -28,19 +28,9 @@ Vide http://dev.nando.audio/pages/teclado.html
 Status do projeto
 -----------------
 
-**Os drivers para Windows** têm seu código-fonte nos arquivos de
-extensão .klc.  Esse formato de arquivo é de um utilitário chamado
-Microsoft Keyboard Layout Creator, o programa que deve ser utilizado para
-editá-los.  Ao final do processo o programa gera instaladores .msi.
-
-**Os drivers para Unix** que temos aqui funcionam bem mas são
-obsoletos, pois Ari Caldeira os melhorou um pouco e conseguiu incluí-los no
-código-fonte do `x.org`_. Ou seja, hoje em dia todas as distribuições do
-Linux já vêm com uma versão melhorada destes drivers de teclado.
-A versão que está neste pacote é a original, elaborada principalmente por
-Nando Florestan, Heitor Moraes e Luiz Portella em 2005 e 2006.
-
-**Os drivers para Mac** foram criados com o utilitário open source `Ukelele <https://scripts.sil.org/ukelele>`_ em 2019 por Victor Fonseca (Dvorak BR) e 2014 por amagnoni (brasileiro nativo). Para instalar, basta copiar os arquivos .bundle para “/Library/Keyboard Layouts/”, fazer logout (ou reiniciar a máquina) e depois ir em “System Preferences –> Keyboard –> Input Sources” e habilitar os leiautes de teclado. Os teclados de Mac seguem o padrão americano e, portanto, tem 2 teclas a menos do que os teclados ABNT. Por essa razão, esses leiautes não possuem as teclas "ç" e "\\". O leiaute da tecla "option" foi mantido como no original (Dvorak americano).
+- `layouts para Windows <windows/>`_
+- `layouts para Linux e assemelhados <unix/>`_
+- `layouts para Apple Mac <mac/>`_
 
 Mas e os **outros sistemas operacionais**?
 
@@ -48,28 +38,6 @@ Colaboração *open source* é bem-vinda e por isso é que os fontes estão no
 `github <https://github.com/nandoflorestan/teclado-br>`_.
 Para quaisquer outras ideias, pode
 `criar um ticket <https://github.com/nandoflorestan/teclado-br/issues>`_.
-
-
-troca_teclado
--------------
-
-É um utilitário para Unix, escrito por Nando Florestan na linguagem Python 2.x.
-Serve para facilmente testar e instalar os leiautes de teclado.
-Funcionava bem na época do Ubuntu Linux 8.04 "Hardy Heron".
-Continua funcionando nas mais novas versões do Linux para testar os leiautes,
-mas não para instalá-los permanentemente. Não há nenhum perigo em executar
-o troca_teclado.
-
-Para executá-lo, abra um console e, no diretório "unix", digite::
-
-  sudo ./troca_teclado.py
-
-Será pedida a senha do administrador do sistema.
-Daí basta seguir as instruções na tela.
-
-Nos bastidores, este programa executa o utilitário *setxkbmap*.
-
-O código-fonte é de domínio público.
 
 
 Créditos
@@ -95,6 +63,3 @@ Contribua
 
 Ao fazer um *pull request* neste projeto, você concorda em
 doar o seu trabalho para o domínio público.
-
-
-.. _x.org: http://www.x.org/
