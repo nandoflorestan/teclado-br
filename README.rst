@@ -13,8 +13,8 @@ Este projeto contém os seguintes layouts de teclado:
 .. image:: ./br-nativo.png
 
 3) **QWEBR**, um layout QWERTY que tem vantagens sobre o ABNT2 e sobre o US-International.
-  Neste momento, somente para Windows. (Contribua...)
-  https://github.com/nandoflorestan/teclado-br/tree/master/windows/QWEBR
+Neste momento, somente para Windows. (Contribua...)
+https://github.com/nandoflorestan/teclado-br/tree/master/windows/QWEBR
 
 .. image:: windows/QWEBR/1-normal.png
 

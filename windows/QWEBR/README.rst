@@ -30,7 +30,7 @@ e as aspas simples (menos usadas) são acessadas com shift.
 
 .. image:: ./2-shift.png
 
-O teclado US tem uma tecla Enter pequena demais, com altura de apenas uma linha.
+O teclado US tem a tecla Enter (ou Return) pequena demais, com altura de apenas uma linha.
 A tecla acima dela tem barra invertida e "pipe" ``|``.  Optei por colocar estes caracteres,
 pouco usados, na mesma tecla que a barra simples (via AltGr).  Na tecla assim liberada
 coloquei os dois pontos ``:`` e o ponto-e-vírgula ``;`` com shift, pois o ponto-e-vírgula é menos
@@ -68,7 +68,8 @@ embora isto também funcione.  Ao entrar novamente será possível usar o layout
 Alteração do layout
 ===================
 
-Este layout é doado ao domínio público, você pode fazer o que quiser sem nenhuma limitação.
+Este layout é doado pelo autor, Nando Florestan, ao domínio público -- você pode fazer
+o que quiser sem nenhuma limitação.
 
 Se quiser mexer nalgum detalhe do teclado, encontre o fonte dentro de ``src/``
 e abra-o no programa Microsoft Keyboard Layout Creator.  Há neste projeto outro arquivo de texto
