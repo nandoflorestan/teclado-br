@@ -31,9 +31,9 @@ e as aspas simples (menos usadas) são acessadas com shift.
 .. image:: ./2-shift.png
 
 O teclado US tem uma tecla Enter pequena demais, com altura de apenas uma linha.
-A tecla acima dela tem barra invertida e "pipe" |.  Optei por colocar estes caracteres,
+A tecla acima dela tem barra invertida e "pipe" ``|``.  Optei por colocar estes caracteres,
 pouco usados, na mesma tecla que a barra simples (via AltGr).  Na tecla assim liberada
-coloquei os dois pontos : e o ponto-e-vírgula ; com shift, pois o ponto-e-vírgula é menos
+coloquei os dois pontos ``:`` e o ponto-e-vírgula ``;`` com shift, pois o ponto-e-vírgula é menos
 usado, exceto em linguagens de programação de pouca ergonomia.
 Por falar nisso, viva Python!
 
