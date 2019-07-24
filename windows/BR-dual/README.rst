@@ -13,8 +13,8 @@ Os atalhos de teclado que usam CTRL são entendidos no layout QWERTY, mesmo que
 Caps Lock esteja ligado.  Isso é ótimo para:
 
 - copiar com CTRL-C usando só a mão esquerda,
-- colar com CTRL-V sem tirar a mão direita do teclado,
-- cortar com CTRL-X só com a mão esquerda,
+- colar com CTRL-V sem tirar a mão direita do mouse,
+- cortar com CTRL-X sem ter de pensar onde está o X,
 - salvar com CTRL-S sem olhar se Caps Lock está aceso ou não,
 - fechar documento com CTRL-W usando só a mão esquerda, e assim por diante.
 
