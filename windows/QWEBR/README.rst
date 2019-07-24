@@ -5,7 +5,7 @@ QWEBR - QWERTY com acentos à direita
 O teclado brasileiro ABNT2 tem algumas características desejáveis que fazem falta no layout
 "US - International", principalmente a colocação das teclas mortas no mindinho direito.
 
-Vivendo na Polônia, comprei um computador e me faltou o teclado ABNT2, que precisaria ser
+Vivendo na Polônia, comprei um computador em 2019 e me faltou o teclado ABNT2, que precisaria ser
 importado a um preço proibitivo.  Foi mais fácil criar este layout, para o qual é indiferente
 se você tem um teclado ABNT2 ou um US-International.
 
@@ -54,6 +54,8 @@ Baixe a última versão do projeto "teclado-br" aqui:
 https://github.com/nandoflorestan/teclado-br/archive/master.zip
 
 Descompacte o zip -- ele contém vários layouts de teclado para vários sistemas operacionais.
+Saiba mais sobre eles em https://github.com/nandoflorestan/teclado-br
+
 Dentro do subdiretório "Windows", entre em "QWEBR".  O instalador está dentro da pasta "setup".
 Basta clicar duas vezes no arquivo *setup*.  Se você não vir nada acontecer, atente para a
 barra de programas, o instalador estará ali piscando...
@@ -77,4 +79,4 @@ Conselhos
 =========
 
 1. Aprenda datilografia (digitação com os dedos corretos) -- não é difícil e você leva para a vida inteira.
-2. Qualquer layout QWERTY é pavoroso do ponto de vista da ergonomia.  Tente aprender o layout Dvorak (somente quando já souber datilografia), mas precisa ser num momento da sua vida em que você não tenha nada para entregar, porque aprender um segundo layout tão diferente é uma coisa extremamente frustrante e que pode levar meses.  No meu terceiro dia quase desisti.  Mas hoje sou fluente tanto em Dvorak quanto em QWERTY.
+2. Qualquer layout QWERTY é pavoroso do ponto de vista da ergonomia.  Tente aprender o layout Dvorak (somente quando já souber datilografia), mas precisa ser num momento da sua vida em que você não tenha nada para entregar, porque aprender um segundo layout tão diferente é uma coisa extremamente frustrante e que pode levar meses.  No meu terceiro dia quase desisti.  Mas hoje sou fluente tanto em Dvorak quanto em QWERTY.  Mais informações em http://dev.nando.audio/pages/teclado.html

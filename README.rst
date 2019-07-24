@@ -1,15 +1,29 @@
-BRDK - drivers inovadores para teclado brasileiro
-=================================================
+=======================================================
+teclado-br - drivers inovadores para teclado brasileiro
+=======================================================
 
-Este pacote contém os seguintes drivers:
+Este projeto contém os seguintes layouts de teclado:
 
-- Teclado Dvorak brasileiro, para Unix, Mac e Windows (XP, Vista, 7, 10 etc.)
-- Teclado brasileiro nativo, para Unix e Mac
+1) **BRDK - Dvorak brasileiro**, para Unix, Mac e Windows (XP, Vista, 7, 10 etc.)
 
-Por que usar um teclado Dvorak?
--------------------------------
+.. image:: ./br-dvorak.png
+
+2) Teclado brasileiro nativo, para Unix e Mac.
+
+.. image:: ./br-nativo.png
+
+3) **QWEBR**, um layout QWERTY que tem vantagens sobre o ABNT2 e sobre o US-International.
+  Neste momento, somente para Windows. (Contribua...)
+  https://github.com/nandoflorestan/teclado-br/tree/master/windows/QWEBR
+
+.. image:: windows/QWEBR/1-normal.png
+
+
+Por que usar um leiaute de teclado Dvorak?
+------------------------------------------
 
 Vide http://dev.nando.audio/pages/teclado.html
+
 
 Status do projeto
 -----------------
@@ -19,10 +33,10 @@ extensão .klc.  Esse formato de arquivo é de um utilitário chamado
 Microsoft Keyboard Layout Creator, o programa que deve ser utilizado para
 editá-los.  Ao final do processo o programa gera instaladores .msi.
 
-**Os drivers para Unix** que temos aqui funcionam bem mas são ligeiramente
+**Os drivers para Unix** que temos aqui funcionam bem mas são
 obsoletos, pois Ari Caldeira os melhorou um pouco e conseguiu incluí-los no
 código-fonte do `x.org`_. Ou seja, hoje em dia todas as distribuições do
-Linux já vêm com uma versão melhorada desses drivers de teclado.
+Linux já vêm com uma versão melhorada destes drivers de teclado.
 A versão que está neste pacote é a original, elaborada principalmente por
 Nando Florestan, Heitor Moraes e Luiz Portella em 2005 e 2006.
 
@@ -30,10 +44,11 @@ Nando Florestan, Heitor Moraes e Luiz Portella em 2005 e 2006.
 
 Mas e os **outros sistemas operacionais**?
 
-Colaboração open source é bem-vinda e por isso é que os fontes estão no
-`github <https://github.com/victor-fonseca/teclado-br>`_.
+Colaboração *open source* é bem-vinda e por isso é que os fontes estão no
+`github <https://github.com/nandoflorestan/teclado-br>`_.
 Para quaisquer outras ideias, pode
-`criar um ticket <https://github.com/victor-fonseca/teclado-br/issues>`_.
+`criar um ticket <https://github.com/nandoflorestan/teclado-br/issues>`_.
+
 
 troca_teclado
 -------------
@@ -56,7 +71,6 @@ Nos bastidores, este programa executa o utilitário *setxkbmap*.
 
 O código-fonte é de domínio público.
 
-.. _x.org: http://www.x.org/
 
 Créditos
 --------
@@ -69,14 +83,18 @@ Os arquivos deste projeto são resultado do trabalho de:
 - Heitor Moraes (brdk e documentação)
 - Luiz Portella (brdk p/ Unix)
 - `Nando Florestan <https://github.com/nandoflorestan>`_
-  (brdk p/ Unix e Windows e documentação)
+  (brdk p/ Unix e Windows, QWEBR para Windows e documentação)
 - `Victor Fonseca <https://github.com/victor-fonseca>`_
   (brdk p/ Mac e documentação)
 - `amagnoni <https://github.com/amagnoni>`_
   (br nativo p/ Mac)
 
+
 Contribua
 ---------
 
-Ao fazer um pull request neste projeto, você concorda em
+Ao fazer um *pull request* neste projeto, você concorda em
 doar o seu trabalho para o domínio público.
+
+
+.. _x.org: http://www.x.org/
