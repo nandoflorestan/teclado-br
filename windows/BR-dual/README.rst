@@ -11,6 +11,7 @@ maiúsculas), mas é bom para alternar entre Dvorak e QWERTY.
 
 Os atalhos de teclado que usam CTRL são entendidos no layout QWERTY, mesmo que
 Caps Lock esteja ligado.  Isso é ótimo para:
+
 - copiar com CTRL-C usando só a mão esquerda,
 - colar com CTRL-V sem tirar a mão direita do teclado,
 - cortar com CTRL-X só com a mão esquerda,
@@ -33,7 +34,7 @@ no ABNT2), porém você pode produzir o Ç de várias formas:
 5. Tecla morta de til, e depois a letra J (confusão entre QWERTY e Dvorak).
 6. Tecla morta de til, e depois a letra I (confusão entre QWERTY e Dvorak).
 
-Veja as 4 figuras neste diretório para entender o layout.
+Veja as figuras neste diretório para entender o layout.
 
 .. image:: ./1-normal.png
 
@@ -86,7 +87,7 @@ Eis a história de Nando, um usuário:
 3. Procurando uma alternativa, Nando viu que o Dvorak seria muito mais
    confortável e dedicou meses a aprendê-lo.  Apesar da frustração inicial
    as dores passaram devido à economia de movimentos.
-4. Nos primeiros dois anos, ao voltar para um computador sem Dvorak, Nando
+4. Nos dois primeiros anos, ao voltar para um computador sem Dvorak, Nando
    descobria que fazia confusão nos primeiros minutos, mas depois o QWERTY
    lhe voltava.
 5. Alguma coisa ainda não estava ótima, então Nando experimentou o Brasileiro
