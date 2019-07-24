@@ -14,9 +14,11 @@ Este projeto contém os seguintes layouts de teclado:
 
 3) **QWEBR**, um layout QWERTY que tem vantagens sobre o ABNT2 e sobre o US-International.
 Neste momento, somente para Windows. (Contribua...)
-https://github.com/nandoflorestan/teclado-br/tree/master/windows/QWEBR
 
 .. image:: windows/QWEBR/1-normal.png
+
+4) **BR-dual**, em que a tecla Caps Lock alterna entre QWERTY e Dvorak.
+Neste momento, somente para Windows. (Contribua...)
 
 
 Por que usar um leiaute de teclado Dvorak?

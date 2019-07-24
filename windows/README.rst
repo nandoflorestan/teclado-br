@@ -26,12 +26,9 @@ possibilitaram a instalação do MSKLC.
 Finalmente eis o procedimento que funcionou para mim: instalar o .NET
 Framework 3.5 através do Painel de Controle.
 
-Aperte a tecla Windows e digite "Windows Features" (ou provavelmente
-"Recursos" se o teu Windows é em português) e pressione Enter.
-Também dá para abrir o Painel de Controle e procurar ali.  Enfim,
-o objetivo é abrir uma caixa de diálogo chamada "Turn Windows features
-on or off" (ligar ou desligar recursos do Windows).
-
-Ali há uma caixinha que diz ".NET Framework 3.5 (includes .NET 2.0 and 3.0)".
-Habilite-a, aperte OK, espere a instalação e depois tente instalar o editor
-de teclado.  Assim deverá funcionar.
+a) Aperte a tecla Windows junto com R.  Aparece uma caixa para digitar um comando.
+b) Digite ``appwiz.cpl`` e aperte Enter. Abre-se a janela *Programs and features*.
+c) Clique no link *Turn Windows features on or off* (ligar ou desligar recursos do Windows).
+d) Dentre várias configurações, há uma que diz ".NET Framework 3.5 (includes
+   .NET 2.0 and 3.0)".  Habilite-a, aperte OK e espere a instalação.
+e) Tente instalar o editor de teclado.  Agora deverá funcionar.
