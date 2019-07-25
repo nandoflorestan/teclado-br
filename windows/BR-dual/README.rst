@@ -41,13 +41,9 @@ Veja as figuras neste diretório para entender o layout.
 As teclas mortas para os acentos estão exatamente no mesmo lugar que no ABNT2
 e no BRDK.
 
-A tecla à esquerda do número 1 tem aspas simples e duplas no ABNT2 e no BRDK.
-Aqui estão invertidas:  Temos aspas duplas por padrão, e as aspas simples
-(menos usadas) são acessadas com shift.
-
 .. image:: ./2-shift.png
 
-O mesmo ocorre com dois pontos ``:`` e ponto-e-vírgula ``;``: o último é
+Os dois pontos ``:`` e ponto-e-vírgula ``;`` estão invertidos: o último é
 que necessita de shift, pois é menos usado, exceto em linguagens de
 programação de pouca ergonomia.  Viva Python!
 
