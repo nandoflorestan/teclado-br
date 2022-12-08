@@ -30,17 +30,17 @@ no ABNT2), porém você pode produzir o Ç de várias formas:
 
 Veja as figuras neste diretório para entender o layout.
 
-[Normal](./1-normal.jpg)
+![Normal](./1-normal.jpg)
 
 As teclas mortas para os acentos estão exatamente no mesmo lugar que no ABNT2
 e no BRDK.
 
-[Shift](./2-shift.jpg)
+![Shift](./2-shift.jpg)
 
 As teclas que mudam em função do Caps Lock são tão poucas quanto possível:
 apenas as letras e 4 teclas de pontuação que fazem parte do Dvorak original.
 
-[AltGr](./3-altgr.jpg)
+![AltGr](./3-altgr.jpg)
 
 O idioma polonês é suportado neste teclado, pois os caracteres acentuados do
 polonês estão disponíveis pela tecla AltGr, exatamente como no teclado polonês.
@@ -48,15 +48,15 @@ Isto provavelmente não te interessa, mas também não vai te atrapalhar.
 Evidentemente, este layout dá conta de todos os idiomas suportados pelo
 US-International e pelo ABNT2.
 
-[Shift-AltGr](./4-shift-altgr.jpg)
+![Shift-AltGr](./4-shift-altgr.jpg)
 
 Com Caps Lock:
 
-[Caps](./5-capslock.jpg)
+![Caps](./5-capslock.jpg)
 
 Com Caps Lock e Shift:
 
-[Shift-Caps](./6-shift-capslock.jpg)
+![Shift-Caps](./6-shift-capslock.jpg)
 
 
 ## Para quem é este teclado?
