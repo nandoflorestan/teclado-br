@@ -2,6 +2,14 @@
 teclado-br - drivers inovadores para teclado brasileiro
 =======================================================
 
+Este projeto está arquivado desde 2023-10-09, mas não será apagado. Para o futuro:
+
+- Tenho [um projeto novo, focado em layout Dvorak](https://github.com/nandoflorestan/nandvorak).
+- Espero que outra pessoa assuma o desenvolvimento do Teclado Brasileiro Nativo, o qual não uso. Terei prazer em trocar links.
+
+Neste projeto
+-------------
+
 Este projeto contém os seguintes layouts de teclado:
 
 1) **BRDK - Dvorak brasileiro**, para Unix, Mac e Windows (XP, Vista, 7, 10 etc.)
