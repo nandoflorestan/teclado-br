@@ -4,7 +4,7 @@ teclado-br - drivers inovadores para teclado brasileiro
 
 Este projeto está arquivado desde 2023-10-09, mas não será apagado. Para o futuro:
 
-- Tenho [um projeto novo, focado em layout Dvorak](https://github.com/nandoflorestan/nandvorak).
+- Tenho `um projeto novo, focado em layout Dvorak <https://github.com/nandoflorestan/nandvorak>`_.
 - Espero que outra pessoa assuma o desenvolvimento do Teclado Brasileiro Nativo, o qual não uso. Terei prazer em trocar links.
 
 Neste projeto
