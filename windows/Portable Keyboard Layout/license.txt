@@ -1,0 +1,7 @@
+License: GNU General Public License 3
+Portable Keyboard Layout Copyright (C) 2007-2008 FARKAS, Máté
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it under certain conditions
+
+
+Icons: http://www.iconarchive.com/icons/tpdkdesign.net/refresh-cl/readme_eng.txt

@@ -1,4 +1,4 @@
-// Brazilian Dvorak keyboard                     2008-05-04
+// Brazilian Dvorak keyboard                     2008-05-04 and 2023-07-31
 // "Teclado Simplificado Brasileiro" ou "Dvorak Brasileiro"
 //
 // Driver para o X Window System, doado ao domínio público.
@@ -8,12 +8,12 @@
 // Nando Florestan  nando@acapela.com.br          oui.com.br/
 // Heitor Moraes    heitor.moraes@gmail.com
 // Luiz Portella    lfpor@lujz.org                www.lujz.org/lfpor/dvorak.html
-
+// Gabriel Soares   gbcoe@outlook.com.br          https://orepertorioliturgico.com.br/
 
 partial default alphanumeric_keys
-xkb_symbols "basic" {
+xkb_symbols "dvorak-motion" {
 
-    name[Group1]="Brazilian Dvorak";
+    name[Group1]="Brazilian Dvorak - Motion Inclused(PT-BR)";
 
     key <TLDE>   { [   apostrophe,       quotedbl                               ] };
     key <AE01>   { [            1,         exclam,   onesuperior,    exclamdown ] };
@@ -37,7 +37,7 @@ xkb_symbols "basic" {
     key <AD05>   { [          y,          Y,       uparrow,            yen ] };
     key <AD06>   { [          f,          F,       dstroke,    ordfeminine ] };
     key <AD07>   { [          g,          G,           eng,            ENG ] };
-    key <AD08>   { [          c,          C,      ccedilla,       Ccedilla ] };
+    key <AD08>   { [          c,          C,            Up                 ] };
     key <AD09>   { [          r,          R,    registered,      copyright ] };
     key <AD10>   { [          l,          L,       lstroke,        Lstroke ] };
     key <AD11>   { [ dead_acute, dead_grave,         acute,          grave ] };
@@ -49,9 +49,9 @@ xkb_symbols "basic" {
     key <AC04>   { [          u,               U,  leftarrow              ] };
     key <AC05>   { [          i,               I,  downarrow,    idotless ] };
     key <AC06>   { [          d,               D, rightarrow              ] };
-    key <AC07>   { [          h,               H,    hstroke,     Hstroke ] };
-    key <AC08>   { [          t,               T,     tslash,      Tslash ] };
-    key <AC09>   { [          n,               N,        eth,         ETH ] };
+    key <AC07>   { [          h,               H,       Left              ] };
+    key <AC08>   { [          t,               T,       Down              ] };
+    key <AC09>   { [          n,               N,      Right              ] };
     key <AC10>   { [          s,               S,     ssharp,     section ] };
     key <AC11>   { [ dead_tilde, dead_circumflex, asciitilde, asciicircum ] };
     key <BKSL>   { [      minus,      underscore,  emdash                 ] };
